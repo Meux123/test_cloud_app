@@ -6,7 +6,7 @@ import plotly.express as px
 
 @st.cache_data
 def create_la_geojson():
-    with open('Local_Authority_District.geojson') as f:
+    with open('Local_Authority_Districts.geojson') as f:
         gj=geojson.load(f)
     example_la_data = []
     
